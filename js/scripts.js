@@ -11,7 +11,8 @@
 })(jQuery);
 
 $(function() {
-    $.getJSON("http://opendata.epa.gov.tw/ws/Data/REWIQA/?$orderby=SiteName&$skip=0&$top=1000&format=json&callback=?", airquality);
+    //$.getJSON("http://opendata.epa.gov.tw/ws/Data/REWIQA/?$orderby=SiteName&$skip=0&$top=1000&format=json&callback=?", airquality);
+    $.getJSON("https://mysterious-beach-89513.herokuapp.com/api2", airquality);
 });
 
 
